@@ -28,12 +28,23 @@
     </button>
 
     <div id="gameButtonArea">
-      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
-      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
-      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
-      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
-      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
-      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
+      <audio id="button1Audio" src="https://cdn.glitch.com/8438714a-39e8-49e3-9600-2456431035bf%2Fbutton1.mp3?v=1615325716099"></audio>
+      <button id="button1" onclick="guess(1)" onmousedown="playTone(1)" onmouseup="stopTone(1)"></button>
+      
+      <audio id="button2Audio" src="https://cdn.glitch.com/8438714a-39e8-49e3-9600-2456431035bf%2Fbutton2.wav?v=1615325734510"></audio>
+      <button id="button2" onclick="guess(2)" onmousedown="playTone(2)" onmouseup="stopTone(2)"></button>
+      
+      <audio id="button3Audio" src="https://cdn.glitch.com/8438714a-39e8-49e3-9600-2456431035bf%2Fbutton3.wav?v=1615325739149"></audio>
+      <button id="button3" onclick="guess(3)" onmousedown="playTone(3)" onmouseup="stopTone(3)"></button>
+      
+      <audio id="button4Audio" src="https://cdn.glitch.com/8438714a-39e8-49e3-9600-2456431035bf%2Fbutton4.mp3?v=1615325742403"></audio>
+      <button id="button4" onclick="guess(4)" onmousedown="playTone(4)" onmouseup="stopTone(4)"></button>
+      
+      <audio id="button5Audio" src="https://cdn.glitch.com/8438714a-39e8-49e3-9600-2456431035bf%2Fbutton5.wav?v=1615325748724"></audio>
+      <button id="button5" onclick="guess(5)" onmousedown="playTone(5)" onmouseup="stopTone(5)"></button>
+      
+      <audio id="button6Audio" src="https://cdn.glitch.com/8438714a-39e8-49e3-9600-2456431035bf%2Fbutton6.mp3?v=1615325751840"></audio>
+      <button id="button6" onclick="guess(6)" onmousedown="playTone(6)" onmouseup="stopTone(6)"></button>
     </div>
   </body>
 </html>
